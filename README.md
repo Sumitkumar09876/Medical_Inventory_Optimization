@@ -54,7 +54,7 @@ The **Medical Inventory Optimization** project aims to reduce the **bounce rate*
 ## How to Run the Project
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/medical-inventory-optimization.git
+   git clone https://github.com/your-repo/Medical_Inventory_Optimization.git
    cd medical-inventory-optimization
    ```
 2. Install dependencies:
