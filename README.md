@@ -1,12 +1,75 @@
-# Medical-Inventory-Optimization
+# Medical Inventory Optimization
 
-Objective: The project aims to address the increasing bounce rate in a healthcare organization, leading to patient dissatisfaction. The primary goal is to minimize the bounce rate by at least 30% while reducing inventory costs, with an expected revenue increase of at least 20 lacs INR. Utilizing a Data Analytics Project Management Methodology, the project will handle a dataset of 14,218 rows and 14 columns, focusing on the Supply Chain Management department.
+## Overview
+The **Medical Inventory Optimization** project aims to reduce the **bounce rate** in a healthcare organization, which directly impacts patient satisfaction. The primary goal is to **reduce the bounce rate by at least 30%** through data-driven insights and optimization strategies.
 
-Code Summary: The project involves two main phases: data pre-processing and exploratory data analysis (EDA). The pre-processing phase, detailed in "Pre-processing Code SQL," includes data cleaning and normalization. The EDA phase, described in "EDA Code SQL," uses statistical analysis to understand data distribution and characteristics, focusing on the bounce rate and customer satisfaction issues in certain drug subcategories and formulations.
+## Objectives
+- Address the increasing bounce rate in a healthcare organization.
+- Achieve a **minimum reduction of 30%** in bounce rate.
 
-Bussiness Insights: 
-* From Sub category Injections,tablets and IV fuilds, electrolytes,TPN has highest number of returns
-* Department 1 has highest average returns and specialization41 has highest average sales
-* Department 1 contains highest average sales in department compared to other two departments
-* Form1 has more return quantity , form3 has lowest return quantities
-* In sales we can see dec month has highest sales compared to other months
+## Project Phases
+### 1. Data Pre-processing
+- Involves **cleaning and preparing** data for analysis.
+- Detailed instructions and code are provided in the **"Pre-processing Code SQL"** file.
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyze various data points to derive **actionable insights**.
+- Identify key factors contributing to high bounce rates.
+
+## Key Insights
+### Subcategories
+- **Injections, tablets, IV fluids, electrolytes, and TPN** have the highest number of returns.
+
+### Departments
+- **Department 1** has the **highest average returns**.
+- **Specialization 41** has the **highest average sales**.
+- **Department 1** also has the highest **average sales** among all departments.
+
+### Forms
+- **Form 1** has the **most return quantity**.
+- **Form 3** has the **lowest return quantities**.
+
+### Sales Trends
+- **December** records the **highest sales** compared to other months.
+
+## Business Insights
+- The analysis helps in understanding the **patterns of product returns and sales**.
+- Provides **actionable insights** for improving **inventory management**.
+- Helps in **reducing bounce rates** in healthcare organizations.
+
+## Repository Structure
+```
+├── data/                 # Contains raw and processed datasets
+├── scripts/              # SQL and Python scripts for data processing and analysis
+├── notebooks/            # Jupyter notebooks for EDA and insights
+├── reports/              # Business insights and visualization reports
+├── README.md             # Project overview and documentation
+```
+
+## Technologies Used
+- **SQL** for data pre-processing
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** for data analysis
+- **Machine Learning** techniques for predictive insights (if applicable)
+
+## How to Run the Project
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/medical-inventory-optimization.git
+   cd medical-inventory-optimization
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the pre-processing script:
+   ```sh
+   python scripts/preprocessing.py
+   ```
+4. Perform Exploratory Data Analysis (EDA) using the Jupyter notebook.
+5. Review insights and implement strategies for inventory optimization.
+
+## Contributions
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open a pull request or an issue.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
