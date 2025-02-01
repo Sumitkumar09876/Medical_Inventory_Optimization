@@ -68,8 +68,3 @@ The **Medical Inventory Optimization** project aims to reduce the **bounce rate*
 4. Perform Exploratory Data Analysis (EDA) using the Jupyter notebook.
 5. Review insights and implement strategies for inventory optimization.
 
-## Contributions
-Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open a pull request or an issue.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
